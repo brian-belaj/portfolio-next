@@ -1,4 +1,5 @@
 "use client";
+import { contactItems } from "@/data/contact";
 import React from "react";
 
 export default function ContactDark() {

@@ -1,3 +1,4 @@
+import { stepsItems2 } from "@/data/steps";
 import React from "react";
 
 export default function Steps() {

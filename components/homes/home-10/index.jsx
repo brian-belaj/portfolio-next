@@ -7,10 +7,12 @@ import Portfolio from "./Portfolio";
 import Features from "./Features";
 
 import Testimonials from "./Testimonials";
+import Blog from "./Blog";
 import Newsletter from "./Newsletter";
 import Contact from "./Contact";
 import Link from "next/link";
 import { useEffect } from "react";
+import { featuresListData } from "@/data/features";
 import Image from "next/image";
 
 export default function Home10({ onePage = false, dark = false }) {

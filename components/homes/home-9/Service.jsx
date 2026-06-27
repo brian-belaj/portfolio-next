@@ -1,3 +1,4 @@
+import { services5 } from "@/data/services";
 import React from "react";
 
 export default function Service() {

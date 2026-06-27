@@ -1,3 +1,4 @@
+import { features5 } from "@/data/features";
 import React from "react";
 
 export default function Features() {

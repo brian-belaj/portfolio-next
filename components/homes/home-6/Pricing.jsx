@@ -1,4 +1,5 @@
 "use client";
+import { pricing } from "@/data/pricing";
 import Image from "next/image";
 import React, { useState } from "react";
 

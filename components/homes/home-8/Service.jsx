@@ -1,3 +1,4 @@
+import { services4 } from "@/data/services";
 import Image from "next/image";
 export default function Service() {
   return (

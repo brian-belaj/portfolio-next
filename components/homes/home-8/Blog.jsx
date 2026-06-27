@@ -1,4 +1,5 @@
 "use client";
+import { blogs8 } from "@/data/blogs";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";

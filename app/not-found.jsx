@@ -1,11 +1,12 @@
-import Footer1 from "@/components/footers/Footer9";
+import Footer1 from "@/components/footers/Footer1";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 export const metadata = {
-  title: "Pagina non trovata | Brian Belaj, Web Developer",
+  title:
+    "Page Not Found || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
   description:
-    "La pagina che stai cercando non esiste. Torna alla homepage di Brian Belaj per scoprire progetti, servizi e contatti.",
+    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
 };
 export default function MainAboutPage1() {
   return (
