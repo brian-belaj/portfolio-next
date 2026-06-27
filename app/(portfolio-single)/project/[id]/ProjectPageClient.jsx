@@ -26,6 +26,7 @@ const translations = {
     client: "Cliente",
     description: "Descrizione",
     allProjects: "Tutti i progetti",
+    contactMe: "Contattami",
   },
   en: {
     projectDetails: "Project Details",
@@ -34,6 +35,7 @@ const translations = {
     client: "Client",
     description: "Description",
     allProjects: "All projects",
+    contactMe: "Contact me",
   },
 };
 
@@ -153,11 +155,20 @@ export default function ProjectPageClient({ project }) {
                   </h2>
                   <hr className="mb-20" />
                   <p
-                    className="text-gray mb-0"
+                    className="text-gray mb-20"
                     style={{ whiteSpace: "pre-line" }}
                   >
                     {description}
                   </p>
+                  <Link
+                    href="/contact"
+                    className="btn btn-mod btn-border btn-large btn-round"
+                  >
+                    <span className="btn-animate-y">
+                      <span className="btn-animate-y-1">{t("contactMe", locale)}</span>
+                      <span className="btn-animate-y-2">{t("contactMe", locale)}</span>
+                    </span>
+                  </Link>
                 </div>
               </div>
 

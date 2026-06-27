@@ -83,6 +83,7 @@ export default function Portfolio3({ gridClass = "" }) {
           })}
         </Gallery>
       </ul>
+      
     </div>
   );
 }

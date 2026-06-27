@@ -6,7 +6,7 @@ import ProjectPageClient from "./ProjectPageClient";
 
 /**
  * Genera i percorsi statici per tutti i progetti (SSG).
- * Next.js pre-renderizza ogni pagina progetto al build time.
+ * La chiave DEVE corrispondere al nome del parametro dinamico della cartella: [id]
  */
 export async function generateStaticParams() {
   const projects = getProjects();
@@ -14,7 +14,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const project = getProject(params.id);
+  const { id } = await params;
+  const project = getProject(id);
   if (!project) return { title: "Progetto non trovato" };
 
   const title = project?.title?.it ?? "Portfolio project";
@@ -23,8 +24,9 @@ export async function generateMetadata({ params }) {
   return { title, description };
 }
 
-export default function ProjectPage({ params }) {
-  const project = getProject(params.id);
+export default async function ProjectPage({ params }) {
+  const { id } = await params;
+  const project = getProject(id);
 
   if (!project) {
     notFound();
