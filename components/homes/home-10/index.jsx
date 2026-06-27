@@ -7,7 +7,6 @@ import Portfolio from "./Portfolio";
 import Features from "./Features";
 
 import Testimonials from "./Testimonials";
-import Blog from "./Blog";
 import Newsletter from "./Newsletter";
 import Contact from "./Contact";
 import Link from "next/link";
