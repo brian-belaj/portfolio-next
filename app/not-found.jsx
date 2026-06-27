@@ -3,10 +3,9 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 export const metadata = {
-  title:
-    "Page Not Found || Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+  title: "Pagina non trovata | Brian Belaj, Web Developer",
   description:
-    "Resonance &mdash; One & Multi Page React Nextjs Creative Template",
+    "La pagina che stai cercando non esiste. Torna alla homepage di Brian Belaj per scoprire progetti, servizi e contatti.",
 };
 export default function MainAboutPage1() {
   return (

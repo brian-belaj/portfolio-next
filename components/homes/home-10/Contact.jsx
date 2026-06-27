@@ -1,5 +1,4 @@
 "use client";
-import { contactItems } from "@/data/contact";
 import Image from "next/image";
 import React from "react";
 

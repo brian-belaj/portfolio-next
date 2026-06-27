@@ -1,8 +1,5 @@
 "use client";
 
-import { brands } from "@/data/brands";
-import { numberItems2 } from "@/data/facts";
-import { testimonials5 } from "@/data/testimonials";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { Autoplay } from "swiper/modules";

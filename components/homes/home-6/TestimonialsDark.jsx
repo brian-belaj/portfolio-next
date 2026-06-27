@@ -1,8 +1,6 @@
 "use client";
 
 import BrandsDark from "@/components/common/BrandsDark";
-import { numberItems2 } from "@/data/facts";
-import { testimonials5 } from "@/data/testimonials";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 export default function TestimonialsDark() {

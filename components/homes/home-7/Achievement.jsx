@@ -1,4 +1,3 @@
-import { numberItems3 } from "@/data/facts";
 import React from "react";
 
 export default function Achievement() {

@@ -1,7 +1,5 @@
 "use client";
 import BrandsDark from "@/components/common/BrandsDark";
-import { numberItems4 } from "@/data/facts";
-import { testimonials5 } from "@/data/testimonials";
 
 import { useEffect, useRef } from "react";
 import Image from "next/image";

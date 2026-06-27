@@ -1,5 +1,4 @@
 "use client";
-import { portfolios7 } from "@/data/portfolio";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { Gallery, Item } from "react-photoswipe-gallery";

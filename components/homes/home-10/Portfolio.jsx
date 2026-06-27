@@ -1,5 +1,4 @@
 "use client";
-import { portfolioItems } from "@/data/portfolio";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";

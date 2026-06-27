@@ -1,6 +1,5 @@
 "use client";
 
-import { teamMembers3 } from "@/data/team";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 export default function Team() {
