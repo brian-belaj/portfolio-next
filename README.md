@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Brian Belaj – Fullstack Developer Portfolio
 
-## Getting Started
+This repository contains the source code of my personal portfolio website, built with **Next.js** (App Router) and a set of custom UI components based on the “Resonance” template.  
+The backend has been removed: all content (projects, texts, links) is loaded from local files (`data/projects.js`, `data/menu.js`, `data/footer.js`) to simplify deployment and reduce hosting costs.
 
-First, run the development server:
+## Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **UI / CSS**: Bootstrap 5 + custom styles from the Resonance template
+- **Animations & effects**:
+  - WOW.js / Animate.css (scroll reveal)
+  - Jarallax (parallax)
+  - Swiper (sliders)
+  - Isotope / Masonry (portfolio grid)
+- **Images**: Next `Image` with automatic optimization
+- **Languages**: Italian (default) + English, managed via `LanguageContext`
+- **Content**: plain JS data files in `data/` (`projects.js`, `menu.js`, `footer.js`)
+- **Contact form**: handled via API route with Nodemailer (server-side)
+
+## Project Structure
+
+- `app/` – pages and layout (App Router)
+  - `(homes)` – homepage variants
+  - `(contact)` – contact page
+  - `(portfolio-single)` – project detail pages
+  - `(privacy)` – Privacy Policy page
+- `components/` – all reusable UI components (headers, footers, portfolio, etc.)
+- `data/` – static content (projects, menus, footer)
+- `context/LanguageContext.jsx` – language and text management
+- `utlis/` – JS utilities for visual effects (scroll, parallax, menu toggle, etc.)
+
+## Local Development
+
+Clone the repository and install dependencies:
 
 ```bash
-npm run dev
+yarn
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the development server:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+# or
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
-## Learn More
+## Production Build
 
-To learn more about Next.js, take a look at the following resources:
+To create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn build
+# or
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+And to run it:
 
-## Deploy on Vercel
+```bash
+yarn start
+# or
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is designed to be deployed as a **single Next.js app** (frontend + API routes) on platforms such as:
+
+- **Vercel** – first-class Next.js support, automatic deployments from GitHub, custom domains and HTTPS.
+- Netlify – compatible with Next.js App Router via the official Next.js plugin.
+
+Typical deployment flow:
+
+1. Push the `main` branch to GitHub.
+2. Import the repository into Vercel.
+3. Configure environment variables (for Nodemailer, etc.).
+4. Attach the custom domain `brianbelaj.com`.
+
+## Project Goal
+
+This site serves as a portfolio to showcase:
+
+- web projects (front‑end and full‑stack)
+- development style (reusable components, measured animations, UX focus)
+- ability to integrate Next.js with external libraries and structured content.
+
+---
+
+If you want to learn more about Next.js, check out the [official documentation](https://nextjs.org/docs) and the “Learn Next.js” tutorial.
