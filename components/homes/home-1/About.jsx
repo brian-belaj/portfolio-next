@@ -6,7 +6,7 @@ import { useLanguage } from "@/context/LanguageContext";
 const translations = {
   it: {
     aboutText:
-      "Sono uno sviluppatore full‑stack specializzato nella creazione di applicazioni web moderne e ad alte prestazioni. Aiuto aziende e professionisti a creare e mantenere la loro presenza online con soluzioni end‑to‑end — dall’architettura backend scalabile e API fino a frontend curati e responsive. Presto attenzione ai dettagli per garantire un’esperienza utente fluida, sicura e accessibile. Lavoro su tutto lo stack con tecnologie server‑side, database e framework JavaScript per consegnare prodotti affidabili e ben ottimizzati. Se cerchi una soluzione web completa e pronta per la produzione, contattami per trasformare la tua idea in realtà.",
+      "Sono uno sviluppatore full‑stack specializzato nella creazione di applicazioni web moderne e ad alte prestazioni. Aiuto aziende e professionisti a creare e mantenere la loro presenza online con soluzioni end‑to‑end dall’architettura backend scalabile e API fino a frontend curati e responsive. Presto attenzione ai dettagli per garantire un’esperienza utente fluida, sicura e accessibile. Lavoro su tutto lo stack con tecnologie server‑side, database e framework JavaScript per consegnare prodotti affidabili e ben ottimizzati. Se cerchi una soluzione web completa e pronta per la produzione, contattami per trasformare la tua idea in realtà.",
   },
   en: {
     aboutText:

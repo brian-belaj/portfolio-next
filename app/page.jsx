@@ -99,7 +99,7 @@ export default function ElegantPortfolioPageDark() {
             <footer className="bg-dark-2 light-content footer z-index-1 position-relative">
               <Footer5 />
             </footer>
-          </div>{" "}
+          </div>
         </div>
       </div>
     </>

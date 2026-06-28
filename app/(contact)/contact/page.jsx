@@ -5,7 +5,7 @@ import Contact from "@/components/homes/home-7/Contact";
 import { gradientMultipage, gradientMultipageDark } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
-
+import HeroContact from "./heroContact";
 const onePage = false;
 const dark = true;
 
@@ -55,42 +55,14 @@ export default function GradientContactPageDark() {
               <Header7 links={gradientMultipageDark} />
             </nav>
             <main id="main">
-              <section
-                className="page-section bg-dark-alpha-50 light-content bg-cover"
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/demo-elegant/hero-brian.webp)",
-                }}
-                id="home"
-              >
-                <div className="container position-relative pt-20 pt-sm-20 text-center">
-                  <h1 className="hs-title-4 overflow-hidden mb-30 mb-sm-20">
-                    <span className="d-block text-center wow fadeRotateIn">
-                      Brian Belaj
-                    </span>
-                    <span
-                      className="d-block wow fadeRotateIn"
-                      data-wow-delay="0.2s"
-                      data-wow-offset={0}
-                    >
-                      Web Developer
-                    </span>
-                  </h1>
-                </div>
+              <section className="position-relative z-auto">
+                <HeroContact />
               </section>
               <section className="page-section" id="contact">
                 <Contact />
               </section>
             </main>
-            <footer className="footer bg-dark-2 light-content overflow-hidden pb-30">
-              <div className="bg-shape-4 opacity-003">
-                <Image
-                  width="1443"
-                  height="644"
-                  src="/assets/images/demo-gradient/bg-shape-1.svg"
-                  alt=""
-                />
-              </div>
+            <footer className="bg-dark-2 light-content footer z-index-1 position-relative">
               <Footer5 />
             </footer>
           </div>
