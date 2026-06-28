@@ -9,8 +9,8 @@ import Link from "next/link";
 const onePage = false;
 const dark = true;
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
-const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME;
+const SITE_URL = process.env.SITE_URL;
+const SITE_NAME = process.env.SITE_NAME;
 
 export const metadata = {
   title: `Contatti | ${SITE_NAME}, Web Developer Freelance a Pisa`,
