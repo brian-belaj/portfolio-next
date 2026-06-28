@@ -111,9 +111,9 @@ export const projects = [
       it: "Per Centro Demetra, un sito su misura con funzionalità dedicate, progettato per rendere più semplice l’esperienza degli utenti.",
       en: "For Centro Demetra, a tailored website with dedicated features designed to make the user experience simpler.",
     },
-    excerpt: {
-      it: "Un sito su misura con funzionalità dedicate, progettato per rendere più semplice e immediata l’esperienza degli utenti.",
-      en: "A tailored website with dedicated features, designed to make the user experience simpler and more immediate.",
+    description: {
+      it: "Per Centro Demetra ho sviluppato un sito WordPress personalizzato, costruendo il layout da zero in base alle esigenze del progetto. Ho realizzato funzionalità dedicate come uno store locator integrato con Google Maps, pensato per aiutare gli utenti a trovare facilmente le sedi del centro. Il risultato è una piattaforma chiara, veloce e funzionale, capace di unire usabilità, prestazioni e semplicità di gestione.",
+      en: "For Centro Demetra, I developed a custom WordPress website, building the layout from scratch around the project’s needs. I also created dedicated features such as a store locator integrated with Google Maps, designed to help users easily find the center’s locations. The result is a clear, fast, and functional platform that combines usability, performance, and easy management.",
     },
     client: {
       it: "Centro Demetra",
