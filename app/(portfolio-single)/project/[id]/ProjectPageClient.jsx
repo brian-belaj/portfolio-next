@@ -25,7 +25,7 @@ const translations = {
     date: "Data",
     client: "Cliente",
     description: "Descrizione",
-    allProjects: "Tutti i progetti",
+    allProjects: "Torna ai progetti",
     contactMe: "Contattami",
   },
   en: {
@@ -34,7 +34,7 @@ const translations = {
     date: "Date",
     client: "Client",
     description: "Description",
-    allProjects: "All projects",
+    allProjects: "Back to projects",
     contactMe: "Contact me",
   },
 };
@@ -145,7 +145,6 @@ export default function ProjectPageClient({ project }) {
                     </div>
                     <div className="col-sm-8">{client || "—"}</div>
                   </div>
-
                 </div>
 
                 {/* Project Description */}
@@ -160,15 +159,34 @@ export default function ProjectPageClient({ project }) {
                   >
                     {description}
                   </p>
-                  <Link
-                    href="/contact"
-                    className="btn btn-mod btn-border btn-large btn-round"
-                  >
-                    <span className="btn-animate-y">
-                      <span className="btn-animate-y-1">{t("contactMe", locale)}</span>
-                      <span className="btn-animate-y-2">{t("contactMe", locale)}</span>
-                    </span>
-                  </Link>
+                  <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                    <Link
+                      href="/contact"
+                      className="btn btn-mod btn-border btn-large btn-round"
+                    >
+                      <span className="btn-animate-y">
+                        <span className="btn-animate-y-1">
+                          {t("contactMe", locale)}
+                        </span>
+                        <span className="btn-animate-y-2">
+                          {t("contactMe", locale)}
+                        </span>
+                      </span>
+                    </Link>
+                    <Link
+                      href="/#portfolio"
+                      className="btn btn-mod btn-border btn-large btn-round"
+                    >
+                      <span className="btn-animate-y">
+                        <span className="btn-animate-y-1">
+                          {t("allProjects", locale)}
+                        </span>
+                        <span className="btn-animate-y-2">
+                          {t("allProjects", locale)}
+                        </span>
+                      </span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
@@ -176,7 +194,7 @@ export default function ProjectPageClient({ project }) {
                 {project.gallery && project.gallery.length > 0 && (
                   <div className="row mb-n30">
                     {project.gallery
-                      .slice() 
+                      .slice()
                       .sort((a, b) => (a.position ?? 0) - (b.position ?? 0))
                       .map((image, index) => (
                         <div
@@ -197,8 +215,6 @@ export default function ProjectPageClient({ project }) {
               </div>
             </div>
           </section>
-
-
         </main>
 
         <footer className="bg-dark-1 light-content footer z-index-1 position-relative">
