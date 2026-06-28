@@ -5,7 +5,7 @@ export default function LocalBusinessSchema() {
     name: "Brian Belaj",
     image: "https://brianbelaj.com/assets/images/about-home/brian-belaj.webp",
     url: "https://brianbelaj.com",
-    telephone: "+39XXXXXXXXXX",
+    telephone: "+393206632575",
     email: "belaj.br@gmail.com",
     description:
       "Web developer freelance a Pisa. Realizzo siti web performanti, moderni e ottimizzati SEO per professionisti e aziende.",
