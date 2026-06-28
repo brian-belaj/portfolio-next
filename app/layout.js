@@ -14,6 +14,7 @@ import { init_wow } from "@/utlis/initWowjs";
 import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
 
 import { LanguageProvider } from "@/context/LanguageContext";
+import LocalBusinessSchema from "@/components/seo/LocalBusinessSchema";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -72,9 +73,8 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="appear-animate body" suppressHydrationWarning={true}>
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LocalBusinessSchema />
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );
