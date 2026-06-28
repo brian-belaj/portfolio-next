@@ -1,29 +1,50 @@
-
 import Footer5 from "@/components/footers/Footer9";
 import Header7 from "@/components/headers/HeaderBrian";
 import Contact from "@/components/homes/home-7/Contact";
-import { useLanguage } from "@/context/LanguageContext";
 
 import { gradientMultipage, gradientMultipageDark } from "@/data/menu";
 import Image from "next/image";
 import Link from "next/link";
+
 const onePage = false;
 const dark = true;
+
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
+const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME;
+
 export const metadata = {
-  title: "Contatti | Brian Belaj, Full‑stack Web Developer a Pisa",
+  title: `Contatti | ${SITE_NAME}, Web Developer Freelance a Pisa`,
   description:
-    "Contatta Brian Belaj per lo sviluppo di siti web, applicazioni web e supporto tecnico per piattaforme SaaS. Disponibile per nuovi progetti, restyling di siti esistenti e consulenza tecnica.",
-  keywords: [
-    "contatti",
-    "Brian Belaj",
-    "sviluppatore web Torino",
-    "fullstack developer",
-    "sviluppo siti web",
-    "applicazioni web",
-    "supporto tecnico SaaS",
-    "restyling siti",
-  ],
+    "Contatta Brian Belaj per sviluppo siti web, applicazioni web e consulenza tecnica. Disponibile per nuovi progetti, restyling di siti esistenti e collaborazioni da remoto.",
+  alternates: {
+    canonical: `${SITE_URL}/contact`,
+  },
+  openGraph: {
+    title: `Contatti | ${SITE_NAME}, Web Developer Freelance a Pisa`,
+    description:
+      "Contatta Brian Belaj per sviluppo siti web, applicazioni web e consulenza tecnica. Disponibile per nuovi progetti e collaborazioni da remoto.",
+    url: `${SITE_URL}/contact`,
+    siteName: SITE_NAME,
+    locale: "it_IT",
+    type: "website",
+    images: [
+      {
+        url: `${SITE_URL}/opengraph-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: `Contatti ${SITE_NAME}, web developer freelance`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Contatti | ${SITE_NAME}, Web Developer Freelance a Pisa`,
+    description:
+      "Contatta Brian Belaj per sviluppo siti web, applicazioni web e consulenza tecnica.",
+    images: [`${SITE_URL}/twitter-image.jpg`],
+  },
 };
+
 export default function GradientContactPageDark() {
   return (
     <>
@@ -72,7 +93,7 @@ export default function GradientContactPageDark() {
               </div>
               <Footer5 />
             </footer>
-          </div>{" "}
+          </div>
         </div>
       </div>
     </>
