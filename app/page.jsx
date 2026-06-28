@@ -54,11 +54,11 @@ export default function ElegantPortfolioPageDark() {
             </nav>
             <main id="main">
               <section
-                className="page-section bg-dark-alpha-50 light-content"
-                
+                className="page-section bg-dark-alpha-70 light-content"
+
                 style={{
                   backgroundImage:
-                    "url(/assets/images/demo-elegant/hero-brian.webp)",
+                    "url(/assets/images/hero.webp)",
                 }}
                 id="home"
               >

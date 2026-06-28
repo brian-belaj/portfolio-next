@@ -6,11 +6,11 @@ import { useLanguage } from "@/context/LanguageContext";
 const translations = {
   it: {
     aboutText:
-      "Sono uno sviluppatore full‑stack specializzato nella creazione di applicazioni web moderne e ad alte prestazioni. Aiuto aziende e professionisti a creare e mantenere la loro presenza online con soluzioni end‑to‑end dall’architettura backend scalabile e API fino a frontend curati e responsive. Presto attenzione ai dettagli per garantire un’esperienza utente fluida, sicura e accessibile. Lavoro su tutto lo stack con tecnologie server‑side, database e framework JavaScript per consegnare prodotti affidabili e ben ottimizzati. Se cerchi una soluzione web completa e pronta per la produzione, contattami per trasformare la tua idea in realtà.",
+      "Aiuto aziende, professionisti e freelance a creare siti web chiari, moderni e facili da usare. Mi occupo dello sviluppo del progetto dall’inizio alla fine, con attenzione sia all’aspetto visivo sia a ciò che serve per avere un sito veloce, ordinato e semplice da gestire. Il mio obiettivo è realizzare soluzioni affidabili, pensate per presentare al meglio un’attività online e offrire un’esperienza piacevole a chi visita il sito. Se hai un progetto da sviluppare o un sito da migliorare, possiamo parlarne.",
   },
   en: {
     aboutText:
-      "I am a fullstack developer specializing in building modern, high-performance web applications. I help businesses and professionals create and maintain their online presence with end-to-end solutions — from scalable backend architectures and APIs to polished, responsive frontends. I pay attention to detail to ensure a smooth, secure, and accessible user experience. I work across the stack with server-side technologies, databases, and JavaScript frameworks to deliver reliable, well-optimized products. If you need a complete, production-ready web solution, contact me to turn your idea into reality.",
+      "I help businesses, professionals, and freelancers create clear, modern, and easy-to-use websites. I handle the development of each project from start to finish, with attention to both visual quality and everything needed to make a website fast, well-structured, and easy to manage. My goal is to build reliable solutions that present a business at its best online and offer a smooth experience to the people using the site. If you have a project to build or a website to improve, we can talk about it.",
   },
 };
 
