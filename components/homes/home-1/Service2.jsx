@@ -135,6 +135,9 @@ export default function Service2() {
 
   return (
     <div className="container position-relative">
+      <h2 className="section- mb-50">
+        {locale === "it" ? "Servizi" : "Services"}
+      </h2>
       <div className="row">
         <div className="col-lg-6 mb-md-60 mb-sm-30">
           <div className="row mb-50 mb-sm-30">

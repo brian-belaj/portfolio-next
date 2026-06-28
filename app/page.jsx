@@ -55,7 +55,7 @@ export default function ElegantPortfolioPageDark() {
             <main id="main">
               <section
                 className="page-section bg-dark-alpha-50 light-content"
-                fetchpriority="high"
+                
                 style={{
                   backgroundImage:
                     "url(/assets/images/demo-elegant/hero-brian.webp)",
@@ -90,7 +90,7 @@ export default function ElegantPortfolioPageDark() {
                 <Portfolio locale="it" />
               </section>
               <section
-                className="page-section scrollSpysection"
+                className="page-section pt-0 scrollSpysection"
                 id="services"
               >
                 <Service2 />
