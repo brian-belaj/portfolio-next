@@ -39,7 +39,7 @@ export async function generateMetadata({ params }) {
     ? rawImage.startsWith("http")
       ? rawImage
       : `${SITE_URL}${rawImage}`
-    : `${SITE_URL}/opengraph-image.jpg`;
+    : `${SITE_URL}assets/images/about-home/brian-belaj.webp`;
 
   return {
     title,
