@@ -12,24 +12,37 @@ import Portfolio from "@/components/portfolio/Portfolio3";
 import Service2 from "@/components/homes/home-1/Service2";
 
 export const metadata = {
-  title: "Brian Belaj || Web Developer",
+  title: 'Sviluppatore Web Freelance a Pisa | Brian Belaj',
   description:
-    "I am a passionate web developer with a strong focus on creating visually appealing and user-friendly websites. My expertise lies in front-end development, where I combine my technical skills with a keen eye for design to deliver exceptional web experiences.",
-  keywords: [
-    "Brian Belaj",
-    "Web Developer",
-    "Front-end Development",
-    "UI/UX Design",
-    "Responsive Web Design",
-    "JavaScript",
-    "React",
-    "Next.js",
-    "HTML5",
-    "CSS3",
-    "Web Development Portfolio",
-    "Creative Web Solutions",
-  ],
-};
+    'Realizzo siti web moderni, veloci e ottimizzati SEO. Portfolio e progetti di sviluppo web freelance con focus su performance, UX e Next.js.',
+  alternates: {
+    canonical: 'https://brianbelaj.com/',
+  },
+  openGraph: {
+    title: 'Sviluppatore Web Freelance a Pisa | Brian Belaj',
+    description:
+      'Realizzo siti web moderni, veloci e ottimizzati SEO. Scopri portfolio e progetti di sviluppo web freelance.',
+    url: 'https://brianbelaj.com/',
+    siteName: 'Brian Belaj',
+    locale: 'it_IT',
+    type: 'website',
+    images: [
+      {
+        url: '/assets/images/about-home/brian-belaj.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Portfolio di Brian Belaj, sviluppatore web freelance',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sviluppatore Web Freelance a Pisa | Brian Belaj',
+    description:
+      'Portfolio e progetti di sviluppo web freelance, con focus su siti performanti e ottimizzati SEO.',
+    images: ['/assets/images/about-home/brian-belaj.webp'],
+  },
+}
 export default function ElegantPortfolioPageDark() {
   return (
     <>

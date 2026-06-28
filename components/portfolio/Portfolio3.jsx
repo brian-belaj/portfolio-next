@@ -10,11 +10,7 @@ import { Gallery } from "react-photoswipe-gallery";
 export default function Portfolio3({ gridClass = "" }) {
   const { locale } = useLanguage();
 
-  // I dati sono locali e sincroni: nessun useEffect/fetch necessario
-  const projects = useMemo(
-    () => getProjects(),
-    []
-  );
+  const projects = useMemo(() => getProjects(), []);
 
   const getLocalizedValue = (field) => {
     if (!field) return "";
@@ -83,7 +79,6 @@ export default function Portfolio3({ gridClass = "" }) {
           })}
         </Gallery>
       </ul>
-      
     </div>
   );
 }
