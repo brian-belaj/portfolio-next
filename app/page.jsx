@@ -55,6 +55,7 @@ export default function ElegantPortfolioPageDark() {
             <main id="main">
               <section
                 className="page-section bg-dark-alpha-50 light-content"
+                fetchpriority="high"
                 style={{
                   backgroundImage:
                     "url(/assets/images/demo-elegant/hero-brian.webp)",
