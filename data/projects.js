@@ -7,8 +7,8 @@ export const projects = [
       en: "Youfix",
     },
     excerpt: {
-      it: "Ho sviluppato un sito su misura per YouFix, una piattaforma e-commerce dedicata al settore delle costruzioni.",
-      en: "I developed a custom website for YouFix, an e-commerce platform serving the construction industry.",
+      it: "Una piattaforma e-commerce pensata per il settore delle costruzioni, con una struttura chiara anche in presenza di un catalogo molto ampio.",
+      en: "An e-commerce platform designed for the construction industry, with a clear structure even for a large catalog.",
     },
     description: {
       it: "Per YouFix ho sviluppato un sito WordPress personalizzato pensato per supportare un e-commerce con una struttura prodotti ampia e articolata. Ho lavorato sulla parte frontend e sulla personalizzazione di WooCommerce per rendere più chiara la navigazione del catalogo e più semplice la gestione dei contenuti. Il risultato è una piattaforma solida, scalabile e più facile da usare per il cliente e per i suoi utenti.",
@@ -33,8 +33,8 @@ export const projects = [
       en: "Bluegame Yachts",
     },
     excerpt: {
-      it: "Ho adattato il sito Bluegame Yachts alle esigenze del brand, curando layout e funzionalità.",
-      en: "I adapted the Bluegame Yachts website to the brand’s needs, refining layout and functionality.",
+      it: "Per Bluegame Yachts, un sito sviluppato per valorizzare il brand con un’esperienza elegante e una gestione contenuti più flessibile.",
+      en: "For Bluegame Yachts, a website developed to reflect the brand through an elegant experience and more flexible content management.",
     },
     description: {
       it: "Per Bluegame Yachts ho sviluppato un sito WordPress partendo da una base esistente e adattandola alle esigenze del brand. Ho personalizzato layout, contenuti e funzionalità per valorizzare la flotta, migliorare la gestione editoriale e mantenere una navigazione elegante su tutti i dispositivi. Il risultato è un sito coerente con l’identità del marchio, veloce da consultare e semplice da aggiornare.",
@@ -58,8 +58,8 @@ export const projects = [
       en: "Sanlorenzo Charter Fleet",
     },
     excerpt: {
-      it: "Ho realizzato una soluzione su misura per Sanlorenzo Charter Fleet, pensata per presentare flotta e servizi in modo chiaro.",
-      en: "I built a tailored solution for Sanlorenzo Charter Fleet, designed to present fleet and services clearly.",
+      it: "Pensato per presentare flotta e servizi con chiarezza, questo progetto unisce eleganza visiva e facilità di navigazione.",
+      en: "Designed to present fleet and services clearly, this project combines visual elegance with smooth navigation.",
     },
     description: {
       it: "Per Sanlorenzo Charter Fleet ho realizzato un sito WordPress completamente personalizzato, progettato per presentare al meglio la flotta e i servizi del brand. Ho sviluppato un’interfaccia responsive, una gestione contenuti più flessibile e funzionalità dedicate per yacht, contatti e gallerie. Il risultato è un sito elegante, performante e più semplice da gestire, pensato per offrire un’esperienza fluida su desktop e mobile.",
@@ -83,8 +83,8 @@ export const projects = [
       en: "Maria Gabriella Crotti",
     },
     excerpt: {
-      it: "Ho curato lo sviluppo del sito di Maria Gabriella Crotti con un approccio elegante e orientato alla semplicità di gestione.",
-      en: "I developed Maria Gabriella Crotti’s website with an elegant approach focused on easy content management.",
+      it: "Una presenza online costruita per raccontare l’eleganza del brand e valorizzare le collezioni con ordine e raffinatezza.",
+      en: "An online presence built to express the brand’s elegance and showcase its collections with clarity and refinement.",
     },
     description: {
       it: "Per il sito di Maria Gabriella Crotti ho curato lo sviluppo valorizzando l’estetica del brand e la presentazione delle collezioni. Ho lavorato su struttura, layout e gestione dei contenuti per creare un’esperienza visiva raffinata, ordinata e facilmente aggiornabile. Il risultato è un sito elegante e coerente con il posizionamento del marchio, pensato per accompagnare l’utente nella scoperta dei prodotti.",
@@ -108,12 +108,12 @@ export const projects = [
       en: "Centro Demetra",
     },
     excerpt: {
-      it: "Ho creato un sito personalizzato per Centro Demetra, con funzionalità pensate per facilitare l’esperienza degli utenti.",
-      en: "I created a custom website for Centro Demetra, with features designed to improve the user experience.",
+      it: "Per Centro Demetra, un sito su misura con funzionalità dedicate, progettato per rendere più semplice l’esperienza degli utenti.",
+      en: "For Centro Demetra, a tailored website with dedicated features designed to make the user experience simpler.",
     },
-    description: {
-      it: "Per Centro Demetra ho sviluppato un sito WordPress personalizzato, costruendo il layout da zero in base alle esigenze del progetto. Ho realizzato funzionalità dedicate come uno store locator integrato con Google Maps, pensato per aiutare gli utenti a trovare facilmente le sedi del centro. Il risultato è una piattaforma chiara, veloce e funzionale, capace di unire usabilità, prestazioni e semplicità di gestione.",
-      en: "For Centro Demetra, I developed a custom WordPress website, building the layout from scratch around the project’s needs. I also created dedicated features such as a store locator integrated with Google Maps, designed to help users easily find the center’s locations. The result is a clear, fast, and functional platform that combines usability, performance, and easy management.",
+    excerpt: {
+      it: "Un sito su misura con funzionalità dedicate, progettato per rendere più semplice e immediata l’esperienza degli utenti.",
+      en: "A tailored website with dedicated features, designed to make the user experience simpler and more immediate.",
     },
     client: {
       it: "Centro Demetra",
@@ -133,12 +133,12 @@ export const projects = [
       en: "Genera PMA",
     },
     excerpt: {
-      it: "Ho realizzato il restyling di Genera PMA per renderlo più veloce, pulito e semplice da gestire.",
-      en: "I redesigned the Genera PMA website to make it faster, cleaner, and easier to manage.",
+      it: "Un restyling completo pensato per rendere il sito più veloce, più pulito e più semplice da gestire nel tempo.",
+      en: "A full redesign focused on making the website faster, cleaner, and easier to manage over time.",
     },
-    description: {
-      it: "Per Genera PMA ho realizzato il restyling completo del sito, sostituendo una struttura pesante con una soluzione personalizzata più leggera ed efficiente. Ho ridotto la dipendenza dai plugin, migliorato l’organizzazione del codice e lavorato sulle prestazioni per rendere il sito più rapido e stabile. Il risultato è una piattaforma più semplice da gestire, con un’esperienza utente migliore e benefici concreti anche sul fronte SEO.",
-      en: "For Genera PMA, I carried out a full website redesign, replacing a heavy setup with a lighter and more efficient custom solution. I reduced plugin dependency, improved code structure, and worked on performance to make the website faster and more stable. The result is a platform that is easier to manage, delivers a better user experience, and also brings clear SEO benefits.",
+    excerpt: {
+      it: "Dal restyling completo alla semplificazione della struttura, un progetto pensato per migliorare velocità, ordine e gestione del sito.",
+      en: "From a full redesign to a simplified structure, a project focused on improving speed, clarity, and site management.",
     },
     client: {
       it: "Genera PMA",

@@ -20,6 +20,7 @@ const t = (key, locale) =>
 export default function About() {
   const { locale } = useLanguage(); // <-- qui la differenza
   const servicesLabel = locale === "it" ? "servizi" : "services";
+  const contactLabel = locale === "it" ? "contattami" : "contact me"
 
   return (
     <div className="container">
@@ -67,6 +68,17 @@ export default function About() {
                 <span className="btn-animate-y-1">{servicesLabel}</span>
                 <span className="btn-animate-y-2" aria-hidden="true">
                   {servicesLabel}
+                </span>
+              </span>
+            </Link>
+            <Link
+              href="/contact"
+              className="btn btn-mod btn-border btn-round btn-large ml-20 ms-5"
+            >
+              <span className="btn-animate-y">
+                <span className="btn-animate-y-1">{contactLabel}</span>
+                <span className="btn-animate-y-2" aria-hidden="true">
+                  {contactLabel}
                 </span>
               </span>
             </Link>

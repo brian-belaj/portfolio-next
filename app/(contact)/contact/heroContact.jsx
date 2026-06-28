@@ -33,9 +33,9 @@ export default function heroContact() {
     <div className="theme-elegant">
       {/* Hero */}
       <section
-        className="page-section bg-dark-alpha-50 light-content bg-cover"
+        className="page-section bg-dark-alpha-70 light-content bg-cover"
         style={{
-          backgroundImage: "url(/assets/images/demo-elegant/hero-brian.webp)",
+          backgroundImage: "url(/assets/images/hero.webp)",
         }}
         id="home"
       >
