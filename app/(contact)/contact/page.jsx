@@ -48,7 +48,7 @@ export const metadata = {
 export default function GradientContactPageDark() {
   return (
     <>
-      <div className="theme-gradient">
+      <div className="theme-elegant">
         <div className="light-mode">
           <div className="page bg-light-1" id="top">
             <nav className="main-nav dark transparent stick-fixed wow-menubar">

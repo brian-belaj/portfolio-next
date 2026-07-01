@@ -30,7 +30,7 @@ export default function heroContact() {
   const { locale } = useLanguage();
 
   return (
-    <div className="theme-gradient">
+    <div className="theme-elegant">
       {/* Hero */}
       <section
         className="page-section bg-dark-alpha-70 light-content bg-cover"
