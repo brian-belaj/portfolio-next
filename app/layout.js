@@ -15,6 +15,7 @@ import { headerChangeOnScroll } from "@/utlis/changeHeaderOnScroll";
 
 import { LanguageProvider } from "@/context/LanguageContext";
 import LocalBusinessSchema from "@/components/seo/LocalBusinessSchema";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="appear-animate body" suppressHydrationWarning={true}>
         <LocalBusinessSchema />
+        <GoogleTagManager gtmId="GTM-W8FH852B" />
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
