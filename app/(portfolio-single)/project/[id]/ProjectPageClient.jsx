@@ -3,6 +3,7 @@
 import Footer5 from "@/components/footers/Footer9";
 import Header5 from "@/components/headers/HeaderBrian";
 import Image from "next/image";
+import ProjectSlider4 from "@/components/elements/ProjectSlider4";
 import Link from "next/link";
 import { gradientMultipage } from "@/data/menu";
 import { useLanguage } from "@/context/LanguageContext";
@@ -60,7 +61,7 @@ export default function ProjectPageClient({ project }) {
         <main id="main">
           {/* Hero */}
           <section
-            className="page-section bg-dark-alpha-50 light-content"
+            className="page-section bg-dark-alpha-70 light-content"
             style={{
               backgroundImage: project.coverImageUrl
                 ? `url(${project.coverImageUrl})`
@@ -205,8 +206,8 @@ export default function ProjectPageClient({ project }) {
                           <Image
                             src={image.url}
                             alt={title || "Project image"}
-                            width={970}
-                            height={1136}
+                            width={1000}
+                            height={1000}
                           />
                         </div>
                       ))}

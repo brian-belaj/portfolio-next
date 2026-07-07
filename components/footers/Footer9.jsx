@@ -51,7 +51,7 @@ export default function Footer9() {
         <div className="small">
           Contact me at <a href="mailto:belaj.br@gmail.com">belaj.br@gmail.com</a>.
           <br />
-          <a href="/privacy">Privacy Policy</a>.
+          <a href="/privacy">Privacy Policy</a> &nbsp;|&nbsp; <a href="/cookie-policy">Cookie Policy</a>.
         </div>
       </div>
       {/* End Footer Text */}

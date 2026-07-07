@@ -23,7 +23,11 @@ export const projects = [
     liveUrl: "https://youfix.shop/",
     createdAt: "2026-06-24T15:07:00+00:00",
     coverImageUrl: "/uploads/projects/youfix-cover.webp",
-    gallery: [],
+    gallery: [
+
+      { url: "/assets/images/projects/youfix/youfix1.png" },
+      { url: "/assets/images/projects/youfix/youfix6.png" },
+    ],
   },
   {
     id: 2,
