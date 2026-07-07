@@ -7,12 +7,14 @@ const translations = {
   it: {
     message: "Questo sito utilizza i cookie per migliorare la tua esperienza. Continuando a navigare acconsenti al loro utilizzo.",
     moreInfo: "Maggiori informazioni",
-    accept: "Accetto"
+    accept: "Accetto",
+    reject: "Rifiuto"
   },
   en: {
     message: "This site uses cookies to improve your experience. By continuing to browse you consent to their use.",
     moreInfo: "More information",
-    accept: "Accept"
+    accept: "Accept",
+    reject: "Reject"
   }
 };
 
@@ -30,6 +32,11 @@ export default function CookiePopup() {
 
   const acceptCookies = () => {
     localStorage.setItem("cookieConsent", "true");
+    setShowPopup(false);
+  };
+
+  const rejectCookies = () => {
+    localStorage.setItem("cookieConsent", "false");
     setShowPopup(false);
   };
 
@@ -58,24 +65,40 @@ export default function CookiePopup() {
             {t.moreInfo}
           </Link>
         </p>
-        <button
-          onClick={acceptCookies}
-          style={{
-            backgroundColor: "#fff",
-            color: "#000",
-            border: "none",
-            padding: "8px 24px",
-            borderRadius: "4px",
-            cursor: "pointer",
-            fontWeight: "600",
-            fontSize: "14px",
-            transition: "all 0.3s ease",
-            marginTop: "10px",
-          }}
-          className="mt-md-0"
-        >
-          {t.accept}
-        </button>
+        <div className="d-flex gap-2 mt-3 mt-md-0">
+          <button
+            onClick={rejectCookies}
+            style={{
+              backgroundColor: "transparent",
+              color: "#fff",
+              border: "1px solid #fff",
+              padding: "8px 24px",
+              borderRadius: "4px",
+              cursor: "pointer",
+              fontWeight: "600",
+              fontSize: "14px",
+              transition: "all 0.3s ease",
+            }}
+          >
+            {t.reject}
+          </button>
+          <button
+            onClick={acceptCookies}
+            style={{
+              backgroundColor: "#fff",
+              color: "#000",
+              border: "none",
+              padding: "8px 24px",
+              borderRadius: "4px",
+              cursor: "pointer",
+              fontWeight: "600",
+              fontSize: "14px",
+              transition: "all 0.3s ease",
+            }}
+          >
+            {t.accept}
+          </button>
+        </div>
       </div>
     </div>
   );
