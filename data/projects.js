@@ -52,7 +52,10 @@ export const projects = [
     liveUrl: "https://bluegame.it/",
     createdAt: "2026-06-11T13:41:00+00:00",
     coverImageUrl: "/uploads/projects/bluegame-yacht-bgx73-exterior-su.webp",
-    gallery: [],
+    gallery: [
+      { url: "/assets/images/projects/bluegame/bluegame-hero.png" },
+      { url: "/assets/images/projects/bluegame/Bluegame-Yachts-07-07-2026_02_31_PM.png" },
+    ],
   },
   {
     id: 3,
