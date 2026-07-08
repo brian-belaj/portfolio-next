@@ -12,14 +12,14 @@ import Portfolio from "@/components/portfolio/Portfolio3";
 import Service2 from "@/components/homes/home-1/Service2";
 
 export const metadata = {
-  title: 'Sviluppatore Web Freelance a Pisa | Brian Belaj',
+  title: 'Sviluppatore Web Freelance | Brian Belaj',
   description:
     'Realizzo siti web moderni, veloci e ottimizzati SEO. Portfolio e progetti di sviluppo web freelance con focus su performance, UX e Next.js.',
   alternates: {
     canonical: 'https://brianbelaj.com/',
   },
   openGraph: {
-    title: 'Sviluppatore Web Freelance a Pisa | Brian Belaj',
+    title: 'Sviluppatore Web Freelance | Brian Belaj',
     description:
       'Realizzo siti web moderni, veloci e ottimizzati SEO. Scopri portfolio e progetti di sviluppo web freelance.',
     url: 'https://brianbelaj.com/',
