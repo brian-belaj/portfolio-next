@@ -12,37 +12,37 @@ import Portfolio from "@/components/portfolio/Portfolio3";
 import Service2 from "@/components/homes/home-1/Service2";
 
 export const metadata = {
-  title: 'Sviluppatore Web Freelance | Brian Belaj',
+  title: "Sviluppatore Web Freelance | Brian Belaj",
   description:
-    'Realizzo siti web moderni, veloci e ottimizzati SEO. Portfolio e progetti di sviluppo web freelance con focus su performance, UX e Next.js.',
+    "Realizzo siti web moderni, veloci e ottimizzati SEO. Portfolio e progetti di sviluppo web freelance con focus su performance, UX e Next.js.",
   alternates: {
-    canonical: 'https://brianbelaj.com/',
+    canonical: "https://brianbelaj.com/",
   },
   openGraph: {
-    title: 'Sviluppatore Web Freelance | Brian Belaj',
+    title: "Sviluppatore Web Freelance | Brian Belaj",
     description:
-      'Realizzo siti web moderni, veloci e ottimizzati SEO. Scopri portfolio e progetti di sviluppo web freelance.',
-    url: 'https://brianbelaj.com/',
-    siteName: 'Brian Belaj',
-    locale: 'it_IT',
-    type: 'website',
+      "Realizzo siti web moderni, veloci e ottimizzati SEO. Scopri portfolio e progetti di sviluppo web freelance.",
+    url: "https://brianbelaj.com/",
+    siteName: "Brian Belaj",
+    locale: "it_IT",
+    type: "website",
     images: [
       {
-        url: '/assets/images/about-home/brian-belaj.webp',
+        url: "/assets/images/about-home/brian-belaj.webp",
         width: 1200,
         height: 630,
-        alt: 'Portfolio di Brian Belaj, sviluppatore web freelance',
+        alt: "Portfolio di Brian Belaj, sviluppatore web freelance",
       },
     ],
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Sviluppatore Web Freelance a Pisa | Brian Belaj',
+    card: "summary_large_image",
+    title: "Sviluppatore Web Freelance a Pisa | Brian Belaj",
     description:
-      'Portfolio e progetti di sviluppo web freelance, con focus su siti performanti e ottimizzati SEO.',
-    images: ['/assets/images/about-home/brian-belaj.webp'],
+      "Portfolio e progetti di sviluppo web freelance, con focus su siti performanti e ottimizzati SEO.",
+    images: ["/assets/images/about-home/brian-belaj.webp"],
   },
-}
+};
 export default function ElegantPortfolioPageDark() {
   return (
     <>
@@ -54,14 +54,19 @@ export default function ElegantPortfolioPageDark() {
             </nav>
             <main id="main">
               <section
-                className="page-section bg-dark-alpha-70 light-content"
-
-                style={{
-                  backgroundImage:
-                    "url(/assets/images/hero.webp)",
-                }}
+                className="page-section relative bg-dark-alpha-70 light-content"
                 id="home"
               >
+                <Image
+                  src="/assets/images/hero.webp"
+                  alt=""
+                  fill
+                  priority
+                  sizes="100vw"
+                  className="object-cover"
+                />
+
+                <div className="absolute inset-0 bg-black/30" />
                 <div className="container position-relative pt-20 pt-sm-20 text-center">
                   <h1 className="hs-title-4 overflow-hidden mb-30 mb-sm-20">
                     <span className="d-block text-center wow fadeRotateIn">
