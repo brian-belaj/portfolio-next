@@ -59,9 +59,9 @@ export default function ElegantPortfolioPageDark() {
               >
                 <Image
                   src="/assets/images/hero.webp"
-                  alt=""
+                  alt="Brian Belaj, sviluppatore web freelance"
                   fill
-                  priority
+                  fetchpriority="high"
                   sizes="100vw"
                   style={{ objectFit: "cover" }}
                 />
