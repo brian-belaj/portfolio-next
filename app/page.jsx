@@ -60,12 +60,11 @@ export default function ElegantPortfolioPageDark() {
                 <Image
                   src="/assets/images/hero.webp"
                   alt="Brian Belaj, sviluppatore web freelance"
-                  loading="eager"
-                  fetchpriority="high"
+                  fill
+                  priority
                   sizes="100vw"
                   style={{ objectFit: "cover" }}
                 />
-
                 <div className="absolute inset-0 bg-dark-alpha-70" />
                 <div className="container position-relative pt-20 pt-sm-20 text-center">
                   <h1 className="hs-title-4 overflow-hidden mb-30 mb-sm-20">
