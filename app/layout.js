@@ -17,6 +17,17 @@ import { LanguageProvider } from "@/context/LanguageContext";
 import LocalBusinessSchema from "@/components/seo/LocalBusinessSchema";
 import { GoogleTagManager } from "@next/third-parties/google";
 import CookiePopup from "@/components/common/CookiePopup";
+import { Epilogue, Poppins } from "next/font/google";
+
+const epilogue = Epilogue({
+  subsets: ["latin"],
+  weight: ["400", "500"],
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400"],
+});
 
 export default function RootLayout({ children }) {
   const path = usePathname();
@@ -50,17 +61,13 @@ export default function RootLayout({ children }) {
     <html lang="en" className="no-mobile no-touch ">
       <head>
         <link
-          href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&family=Poppins&display=swap"
-          rel="stylesheet"
-        />
-        <link
           rel="preload"
           as="image"
           href="/assets/images/hero.webp"
           fetchPriority="high"
         />
       </head>
-      <body className="appear-animate body" suppressHydrationWarning={true}>
+      <body className={`appear-animate body ${epilogue.variable} ${poppins.variable}`} suppressHydrationWarning={true}>
         <LocalBusinessSchema />
         <GoogleTagManager gtmId="GTM-W8FH852B" />
         <LanguageProvider>
