@@ -53,6 +53,12 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500&family=Poppins&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/images/hero.webp"
+          fetchPriority="high"
+        />
       </head>
       <body className="appear-animate body" suppressHydrationWarning={true}>
         <LocalBusinessSchema />
