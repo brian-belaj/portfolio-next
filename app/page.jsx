@@ -62,6 +62,7 @@ export default function ElegantPortfolioPageDark() {
                   alt="Brian Belaj, sviluppatore web freelance"
                   fill
                   priority
+                  fetchPriority="high"
                   sizes="100vw"
                   style={{ objectFit: "cover" }}
                 />
