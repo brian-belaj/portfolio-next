@@ -1,9 +1,7 @@
 "use client";
 import { useEffect } from "react";
-import "swiper/css";
 import "../public/assets/css/styles.css";
 import "jarallax/dist/jarallax.min.css";
-import "swiper/css/effect-fade";
 
 import "photoswipe/dist/photoswipe.css";
 import { usePathname } from "next/navigation";
@@ -60,12 +58,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="no-mobile no-touch ">
       <head>
-        <link
-          rel="preload"
-          as="image"
-          href="/assets/images/hero.webp"
-          fetchPriority="high"
-        />
       </head>
       <body className={`appear-animate body ${epilogue.variable} ${poppins.variable}`} suppressHydrationWarning={true}>
         <LocalBusinessSchema />
