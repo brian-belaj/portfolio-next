@@ -63,10 +63,10 @@ export default function ElegantPortfolioPageDark() {
                   fill
                   priority
                   sizes="100vw"
-                  className="object-cover"
+                  style={{ objectFit: "cover" }}
                 />
 
-                <div className="absolute inset-0 bg-black/30" />
+                <div className="absolute inset-0 bg-dark-alpha-70" />
                 <div className="container position-relative pt-20 pt-sm-20 text-center">
                   <h1 className="hs-title-4 overflow-hidden mb-30 mb-sm-20">
                     <span className="d-block text-center wow fadeRotateIn">
