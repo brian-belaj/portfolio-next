@@ -4,7 +4,7 @@ import { gradientMultipage } from "@/data/menu";
 import NotFoundClient from "./NotFoundClient";
 
 export const metadata = {
-  title: "Pagina non trovata | Brian Belaj, Web Developer",
+  title: "Pagina non trovata | Web Developer",
   description:
     "La pagina richiesta non è stata trovata. Torna alla home per continuare la navigazione.",
 };

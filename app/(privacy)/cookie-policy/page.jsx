@@ -1,7 +1,7 @@
 import CookiePolicyClient from "./CookiePolicyClient";
 
 export const metadata = {
-  title: "Cookie Policy | Brian Belaj",
+  title: "Cookie Policy",
   description:
     "Cookie Policy per il sito personale e portfolio di Brian Belaj.",
 };

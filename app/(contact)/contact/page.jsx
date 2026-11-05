@@ -9,11 +9,11 @@ import HeroContact from "./heroContact";
 const onePage = false;
 const dark = true;
 
-const SITE_URL = process.env.SITE_URL;
-const SITE_NAME = process.env.SITE_NAME;
+const SITE_URL = (process.env.SITE_URL || "https://brianbelaj.com").replace(/\/$/, "");
+const SITE_NAME = process.env.SITE_NAME || "Brian Belaj";
 
 export const metadata = {
-  title: `Contatti | ${SITE_NAME}, Web Developer Freelance a Pisa`,
+  title: "Contatti | Web Developer Freelance a Pisa",
   description:
     "Contatta Brian Belaj per sviluppo siti web, applicazioni web e consulenza tecnica. Disponibile per nuovi progetti, restyling di siti esistenti e collaborazioni da remoto.",
   alternates: {
@@ -29,7 +29,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: `${SITE_URL}/opengraph-image.jpg`,
+        url: "/assets/images/about-home/brian-belaj.webp",
         width: 1200,
         height: 630,
         alt: `Contatti ${SITE_NAME}, web developer freelance`,
@@ -41,7 +41,7 @@ export const metadata = {
     title: `Contatti | ${SITE_NAME}, Web Developer Freelance a Pisa`,
     description:
       "Contatta Brian Belaj per sviluppo siti web, applicazioni web e consulenza tecnica.",
-    images: [`${SITE_URL}/twitter-image.jpg`],
+    images: ["/assets/images/about-home/brian-belaj.webp"],
   },
 };
 

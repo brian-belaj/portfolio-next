@@ -4,7 +4,7 @@ import { getProject, getProjects } from "@/data/projects";
 import { notFound } from "next/navigation";
 import ProjectPageClient from "./ProjectPageClient";
 
-const SITE_URL = (process.env.SITE_URL || "https://example.com").replace(/\/$/, "");
+const SITE_URL = (process.env.SITE_URL || "https://brianbelaj.com").replace(/\/$/, "");
 const SITE_NAME = process.env.SITE_NAME || "Brian Belaj";
 
 export async function generateStaticParams() {
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
 
   if (!project) {
     return {
-      title: "Progetto non trovato | " + SITE_NAME,
+      title: "Progetto non trovato",
       description: "Il progetto richiesto non è disponibile.",
       robots: {
         index: false,
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
     project?.category?.it ||
     "Sviluppo sito web";
 
-  const title = `${projectTitle} | ${projectService} | ${SITE_NAME}`;
+  const title = `${projectTitle} | ${projectService}`;
 
   const description =
     project?.seo?.description?.it ||

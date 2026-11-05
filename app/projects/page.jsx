@@ -8,7 +8,7 @@ const SITE_URL = (process.env.SITE_URL || "https://brianbelaj.com").replace(
 const SITE_NAME = process.env.SITE_NAME || "Brian Belaj";
 
 export const metadata = {
-  title: `Progetti | ${SITE_NAME}, Web Developer Freelance`,
+  title: "Progetti | Web Developer Freelance",
   description:
     "Scopri tutti i progetti realizzati da Brian Belaj: siti web, e-commerce e piattaforme digitali sviluppati su misura.",
   alternates: {

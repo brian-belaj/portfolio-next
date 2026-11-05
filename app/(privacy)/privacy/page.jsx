@@ -5,7 +5,7 @@ import AnimatedText from "@/components/common/AnimatedText";
 import { gradientMultipage } from "@/data/menu";
 
 export const metadata = {
-  title: "Informativa Privacy | Brian Belaj",
+  title: "Informativa Privacy",
   description:
     "Informativa sulla Privacy per il sito personale e portfolio di Brian Belaj.",
 };
