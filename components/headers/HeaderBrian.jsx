@@ -3,8 +3,16 @@ import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
 import Nav from "./components/Nav";
 import LanguageSelect from "./components/LanguageSelect";
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Header({ links }) {
+  const { locale } = useLanguage();
+  const localizedLinks = links.map((link) =>
+    link.href === "/projects"
+      ? { ...link, text: locale === "it" ? "Progetti" : "Case Studies" }
+      : link,
+  );
+
   return (
     <div className="main-nav-sub container">
       {/* Logo  (* Add your text or image to the link tag. Use SVG or PNG image format. 
@@ -28,7 +36,7 @@ export default function Header({ links }) {
       {/* Main Menu */}
       <div className="inner-nav desktop-nav">
         <ul className="clearlist scroll-nav local-scroll justify-content-start scrollspyLinks">
-          <Nav links={links} animateY />
+          <Nav links={localizedLinks} animateY />
           <li className="desktop-nav-display">
             <div className="vr mt-2" />
           </li>

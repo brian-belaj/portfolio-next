@@ -76,10 +76,12 @@ export const modernOnepage = [
 
 export const gradientMultipage = [
   { href: "/", text: "Home", active: true },
+  { href: "/projects", text: "Projects", active: false },
   { href: "/contact", text: "Contact", active: false },
 ];
 export const gradientMultipageDark = [
   { href: "/", text: "Home", active: true },
+  { href: "/projects", text: "Projects", active: false },
   { href: "/contact", text: "Contact", active: false },
 ];
 
